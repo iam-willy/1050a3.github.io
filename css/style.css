@@ -76,7 +76,8 @@ body {
     margin: 0;
     color: var(--bodyTextColor);
 }
-                            
+
+
 /*-- -------------------------- -->
 <---     Mobile Navigation      -->
 <--- -------------------------- -*/
@@ -332,6 +333,21 @@ body {
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       position: fixed;
       z-index: 10000;
+    }
+    /* Skip to main content */
+    #cs-navigation .skip-to-main-content-link {
+      position: absolute;
+      padding: 1em;
+      left: -999px;
+      background-color: white;
+      color: orange;
+      opacity: 0;
+    }
+    #cs-navigation .skip-to-main-content-link:focus {
+      position: relative;
+      left: 0;
+      transform: translateX(-50%);
+      opacity: 1;
     }
     #cs-navigation .cs-container {
       width: 100%;
@@ -1651,6 +1667,7 @@ body {
       font-weight: 700;
       color: var(--bodyTextColor);
       position: relative;
+      bottom: 50px;
   }
   #cs-footer-108 .cs-link:hover:before {
       width: 100%;
@@ -1667,6 +1684,39 @@ body {
       bottom: -0.125rem;
       left: 0;
       transition: width 0.3s;
+  }
+  #cs-footer-108 .cs-social {
+    border: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    position: relative;
+    top: -50px;
+    left: 500px;
+  }
+  #cs-footer-108 .cs-social-link {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #4e4b66;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition:
+        transform 0.3s,
+        background-color 0.3s;
+  }
+  #cs-footer-274 .cs-social-link:hover {
+    background-color: var(--primary);
+    transform: translateY(-0.1875rem);
+}
+  #cs-footer-108 .cs-social-img {
+    height: 0.8125rem;
+    width: auto;
+    display: block;
   }
   #cs-footer-108 .cs-copyright {
       /* 14px - 16px */
@@ -1693,4 +1743,3 @@ body {
       margin: 0;
   }
 }
-
