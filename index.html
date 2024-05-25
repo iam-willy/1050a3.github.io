@@ -6,16 +6,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
-        <link href="css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
         <!--Fancybox-->
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
-        
         <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,10 +24,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     </head>
 
+    
+
     <!--==============================================-->
     <!--                 Navigation                   -->
     <!--==============================================-->
     <header id="cs-navigation">
+        <a href="#hero-1619" class="skip-to-main-content-link">Skip navigation bar</a>
         <div class="cs-container">
             <!--Nav Logo-->
             <a href="" class="cs-logo" aria-label="back to home">
@@ -79,7 +82,7 @@
                     </ul>
                 </div>
             </nav>
-            <a href="https://youtu.be/BjDebmqFRuc?si=mhmNoZh4tmLkHWPP" class="cs-button-solid cs-nav-button">Contact Us</a>
+            <a href="#contact-1388" class="cs-button-solid cs-nav-button cs-scroll-button">Contact Us</a>
             <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
             <button id="dark-mode-toggle" aria-label="dark mode toggle">
                 <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
@@ -90,7 +93,7 @@
     </header>
 
     <body>
-
+        <main id="main"> 
         <!-- ============================================ -->
         <!--           Hero: Landing + Services           -->
         <!-- ============================================ -->
@@ -122,7 +125,7 @@
                         </svg>
                     </span>
                     <h1 class="cs-title">A good boy or girl deserving the time of their life?</h1>
-                    <a href="https://youtu.be/BjDebmqFRuc?si=mhmNoZh4tmLkHWPP" class="cs-button-solid">BOOK NOW!</a>
+                    <a class="cs-button-solid cs-scroll-button" href="#contact-1388" type="button">BOOK NOW!</a>
                 </div>
                 <ul class="cs-card-group">
                     <li class="cs-item">
@@ -177,260 +180,267 @@
             </picture>
         </section>
                
-        <!-- ============================================ -->
-        <!--                    Services                  -->
-        <!-- ============================================ -->
-
-        <section id="services-1354">
-            <div class="cs-container">
-                <div class="cs-content">
-                    <span class="cs-topper">Our Services</span>
-                    <h2 class="cs-title">We’re Committed to Deliver Top High Quality Services for your Pet!</h2>
-                </div>
-                <ul class="cs-card-group">
-                    <li class="cs-item">
-                        <a href="" class="cs-link">
-                            <h3 class="cs-h3"><span class="cs-span">Wash</span> Only</h3>
-                        </a>
-                        <picture class="cs-background">
-                            <source media="(max-width: 600px)" srcset="images/dogwash.webp" type="image/webp">
-                            <source media="(min-width: 601px)" srcset="images/dogwash.webp" type="image/webp">
-                            <img decoding="async" src="images/dogwash.webp" alt="construction" width="305" height="305" aria-hidden="true">
-                        </picture>
-                    </li>
-                    <li class="cs-item">
-                        <a href="" class="cs-link">
-                            <h3 class="cs-h3"><span class="cs-span">Scale and Polish</span></h3>
-                        </a>
-                        <picture class="cs-background">
-                            <source media="(max-width: 600px)" srcset="images/toothbrushdog.webp" type="image/webp">
-                            <source media="(min-width: 601px)" srcset="images/toothbrushdog.webp" type="image/webp">
-                            <img decoding="async" src="images/toothbrushdog.webp" alt="construction" width="305" height="305" aria-hidden="true">
-                        </picture>
-                    </li>
-                    <li class="cs-item">
-                        <a href="" class="cs-link">
-                            <h3 class="cs-h3"><span class="cs-span">All Ears</span> Great and Small</h3>
-                        </a>
-                        <picture class="cs-background">
-                            <source media="(max-width: 600px)" srcset="images/bigears.jpg" type="image/jpg">
-                            <source media="(min-width: 601px)" srcset="images/bigears.jpg" type="image/jpg">
-                            <img decoding="async" src="images/bigears.jpg" alt="construction" width="305" height="305" aria-hidden="true">
-                        </picture>
-                    </li>
-                    <li class="cs-item">
-                        <a href="" class="cs-link">
-                            <h3 class="cs-h3"><span class="cs-span">A Pet</span> Free of Creatures</h3>
-                        </a>
-                        <picture class="cs-background">
-                            <source media="(max-width: 600px)" srcset="images/happydog.webp" type="image/webp">
-                            <source media="(min-width: 601px)" srcset="images/happydog.webp" type="image/webp">
-                            <img decoding="async" src="images/happydog.webp" alt="construction" width="305" height="305" aria-hidden="true">
-                        </picture>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- ============================================ -->
-        <!--                   Gallery                    -->
-        <!-- ============================================ -->
-
-        <section id="gallery-1152">
-            <div class="cs-container">
-                <div class="cs-content">
-                    <span class="cs-topper">Our Portfolio</span>
-                    <h2 class="cs-title">Client Gallery</h2>
-                </div>
-                <div class="cs-gallery">
-                    <!--Picture 1-->
-                    <a href="images/groom.jpg" data-fancybox="gallery" data-caption="Final touches then homeward bound!">
-                        <picture class="cs-image">
-                            <source media="(max-width: 600px)" srcset="images/groom.jpg" type="image/jpg">
-                            <source media="(min-width: 601px)" srcset="images/groom.jpg" type="image/jpg">
-                            <img loading="lazy" decoding="async" src="images/groom.jpg" alt="gallery" width="272" height="320">
-                        </picture>
-                    </a>
-                    <!--Picture 2-->
-                    <a href="images/hand-strip.jpg" data-fancybox="gallery" data-caption="Yes...   even grown men get their nails done!">
-                        <picture class="cs-image">
-                            <source media="(max-width: 600px)" srcset="images/hand-strip.jpg" type="image/jpg">
-                            <source media="(min-width: 601px)" srcset="images/hand-strip.jpg" type="image/jpg">
-                            <img loading="lazy" decoding="async" src="images/hand-strip.jpg" alt="gallery" width="272" height="320">
-                        </picture>
-                    </a>
-                    <!--Picture 3-->
-                    <a href="images/dental-after.jpg" data-fancybox="gallery" data-caption="Say cheese!">
-                        <picture class="cs-image">
-                            <source media="(max-width: 600px)" srcset="images/dental-after.jpg" type="image/jpg">
-                            <source media="(min-width: 601px)" srcset="images/dental-after.jpg" type="image/jpg">
-                            <img loading="lazy" decoding="async" src="images/dental-after.jpg" alt="gallery" width="272" height="320">
-                        </picture>
-                    </a>
-                    <!--Picture 4-->
-                    <a href="images/doggrooming.jpg" data-fancybox="gallery" data-caption="Just an elderly wanting to be stylish">
-                        <picture class="cs-image">
-                            <source media="(max-width: 600px)" srcset="images/doggrooming.jpg" type="image/jpg">
-                            <source media="(min-width: 601px)" srcset="images/doggrooming.jpg" type="image/jpg">
-                            <img loading="lazy" decoding="async" src="images/doggrooming.jpg" alt="gallery" width="272" height="320">
-                        </picture>
-                    </a>
-                    <!--Picture 5-->
-                    <a href="images/catgrooming.jpg" data-fancybox="gallery" data-caption="Alex waiting patiently for his groom!">
-                        <picture class="cs-image">
-                            <source media="(max-width: 600px)" srcset="images/catgrooming.jpg" type="image/jpg">
-                            <source media="(min-width: 601px)" srcset="images/catgrooming.jpg" type="image/jpg">
-                            <img loading="lazy" decoding="async" src="images/catgrooming.jpg" alt="gallery" width="272" height="320">
-                        </picture>
-                    </a>
-                </div>
-                <p class="gallery-caption">
-                    Check out more photos of our happy clients at client gallery!
-                </p>
-                <a href="https://youtu.be/BjDebmqFRuc?si=mhmNoZh4tmLkHWPP" class="cs-button-6" aria-label="read more about us">
-                    View Gallery
-                    <!--SVG Arrow-->
-                    <svg class="cs-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.92 11.62C17.8724 11.4973 17.801 11.3851 17.71 11.29L12.71 6.29C12.6168 6.19676 12.5061 6.1228 12.3842 6.07234C12.2624 6.02188 12.1319 5.99591 12 5.99591C11.7337 5.99591 11.4783 6.1017 11.29 6.29C11.1968 6.38324 11.1228 6.49393 11.0723 6.61575C11.0219 6.73758 10.9959 6.86814 10.9959 7C10.9959 7.2663 11.1017 7.5217 11.29 7.71L14.59 11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H14.59L11.29 16.29C11.1963 16.383 11.1219 16.4936 11.0711 16.6154C11.0203 16.7373 10.9942 16.868 10.9942 17C10.9942 17.132 11.0203 17.2627 11.0711 17.3846C11.1219 17.5064 11.1963 17.617 11.29 17.71C11.383 17.8037 11.4936 17.8781 11.6154 17.9289C11.7373 17.9797 11.868 18.0058 12 18.0058C12.132 18.0058 12.2627 17.9797 12.3846 17.9289C12.5064 17.8781 12.617 17.8037 12.71 17.71L17.71 12.71C17.801 12.6149 17.8724 12.5028 17.92 12.38C18.02 12.1365 18.02 11.8635 17.92 11.62Z" fill="#1A1A1A"/>
-                    </svg>
-                </a>
-            </div>
-        </section>
         
-        <!-- ============================================ -->
-        <!--                Meet The Team                 -->
-        <!-- ============================================ -->
-
-        <section id="meet-us-347">
-            <div class="cs-container">
-                <div class="cs-content">
-                    <div class="cs-flex-group">
-                        <span class="cs-topper">Meet</span>
-                        <h2 class="cs-title">The Groomers</h2>
+            <!-- ============================================ -->
+            <!--                    Services                  -->
+            <!-- ============================================ -->
+            <section id="services-1354">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <span class="cs-topper">Our Services</span>
+                        <h2 class="cs-title">We’re Committed to Deliver Top High Quality Services for your Pet!</h2>
                     </div>
-                    <a href="" class="cs-button-solid">View All Members</a>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <a href="" class="cs-link">
+                                <h3 class="cs-h3"><span class="cs-span">Wash</span> Only</h3>
+                            </a>
+                            <picture class="cs-background">
+                                <source media="(max-width: 600px)" srcset="images/dogwash.webp" type="image/webp">
+                                <source media="(min-width: 601px)" srcset="images/dogwash.webp" type="image/webp">
+                                <img decoding="async" src="images/dogwash.webp" alt="construction" width="305" height="305" aria-hidden="true">
+                            </picture>
+                        </li>
+                        <li class="cs-item">
+                            <a href="" class="cs-link">
+                                <h3 class="cs-h3"><span class="cs-span">Scale and Polish</span></h3>
+                            </a>
+                            <picture class="cs-background">
+                                <source media="(max-width: 600px)" srcset="images/toothbrushdog.webp" type="image/webp">
+                                <source media="(min-width: 601px)" srcset="images/toothbrushdog.webp" type="image/webp">
+                                <img decoding="async" src="images/toothbrushdog.webp" alt="construction" width="305" height="305" aria-hidden="true">
+                            </picture>
+                        </li>
+                        <li class="cs-item">
+                            <a href="" class="cs-link">
+                                <h3 class="cs-h3"><span class="cs-span">All Ears</span> Great and Small</h3>
+                            </a>
+                            <picture class="cs-background">
+                                <source media="(max-width: 600px)" srcset="images/bigears.jpg" type="image/jpg">
+                                <source media="(min-width: 601px)" srcset="images/bigears.jpg" type="image/jpg">
+                                <img decoding="async" src="images/bigears.jpg" alt="construction" width="305" height="305" aria-hidden="true">
+                            </picture>
+                        </li>
+                        <li class="cs-item">
+                            <a href="" class="cs-link">
+                                <h3 class="cs-h3"><span class="cs-span">A Pet</span> Free of Creatures</h3>
+                            </a>
+                            <picture class="cs-background">
+                                <source media="(max-width: 600px)" srcset="images/happydog.webp" type="image/webp">
+                                <source media="(min-width: 601px)" srcset="images/happydog.webp" type="image/webp">
+                                <img decoding="async" src="images/happydog.webp" alt="construction" width="305" height="305" aria-hidden="true">
+                            </picture>
+                        </li>
+                    </ul>
+                    <a href="https://youtu.be/BjDebmqFRuc?si=mhmNoZh4tmLkHWPP" class="cs-button-6" aria-label="read more about us">
+                        View Other Services
+                        <!--SVG Arrow-->
+                        <svg class="cs-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.92 11.62C17.8724 11.4973 17.801 11.3851 17.71 11.29L12.71 6.29C12.6168 6.19676 12.5061 6.1228 12.3842 6.07234C12.2624 6.02188 12.1319 5.99591 12 5.99591C11.7337 5.99591 11.4783 6.1017 11.29 6.29C11.1968 6.38324 11.1228 6.49393 11.0723 6.61575C11.0219 6.73758 10.9959 6.86814 10.9959 7C10.9959 7.2663 11.1017 7.5217 11.29 7.71L14.59 11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H14.59L11.29 16.29C11.1963 16.383 11.1219 16.4936 11.0711 16.6154C11.0203 16.7373 10.9942 16.868 10.9942 17C10.9942 17.132 11.0203 17.2627 11.0711 17.3846C11.1219 17.5064 11.1963 17.617 11.29 17.71C11.383 17.8037 11.4936 17.8781 11.6154 17.9289C11.7373 17.9797 11.868 18.0058 12 18.0058C12.132 18.0058 12.2627 17.9797 12.3846 17.9289C12.5064 17.8781 12.617 17.8037 12.71 17.71L17.71 12.71C17.801 12.6149 17.8724 12.5028 17.92 12.38C18.02 12.1365 18.02 11.8635 17.92 11.62Z" fill="#1A1A1A"/>
+                        </svg>
+                    </a>
                 </div>
-                <ul class="cs-card-group">
-                    <li class="cs-item">
-                        <!--Background Image-->
-                        <picture class="cs-background">
-                            <source media="(max-width: 767px)" srcset="https://www.naijanews.com/buzz/wp-content/uploads/2023/02/IShowSpeed.jpg">
-                            <source media="(min-width: 768px)" srcset="https://www.naijanews.com/buzz/wp-content/uploads/2023/02/IShowSpeed.jpg">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://www.naijanews.com/buzz/wp-content/uploads/2023/02/IShowSpeed.jpg" alt="cleaner" width="305" height="335">
+            </section>
+            
+            <!-- ============================================ -->
+            <!--                   Gallery                    -->
+            <!-- ============================================ -->
+            <section id="gallery-1152">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <span class="cs-topper">Our Portfolio</span>
+                        <h2 class="cs-title">Client Gallery</h2>
+                    </div>
+                    <div class="cs-gallery">
+                        <!--Picture 1-->
+                        <a href="images/groom.jpg" data-fancybox="gallery" data-caption="Final touches then homeward bound!">
+                            <picture class="cs-image">
+                                <source media="(max-width: 600px)" srcset="images/groom.jpg" type="image/jpg">
+                                <source media="(min-width: 601px)" srcset="images/groom.jpg" type="image/jpg">
+                                <img loading="lazy" decoding="async" src="images/groom.jpg" alt="gallery" width="272" height="320">
                             </picture>
-                        <div class="cs-info">
-                            <span class="cs-name">Darren Jason Watkins Jr.</span>
-                            <span class="cs-job">Chief Groomer</span>
-                        </div>
-                    </li>
-                    <li class="cs-item">
-                        <!--Background Image-->
-                        <picture class="cs-background">
-                            <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png">
-                            <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png" alt="cleaner" width="305" height="335">
+                        </a>
+                        <!--Picture 2-->
+                        <a href="images/hand-strip.jpg" data-fancybox="gallery" data-caption="Yes...   even grown men get their nails done!">
+                            <picture class="cs-image">
+                                <source media="(max-width: 600px)" srcset="images/hand-strip.jpg" type="image/jpg">
+                                <source media="(min-width: 601px)" srcset="images/hand-strip.jpg" type="image/jpg">
+                                <img loading="lazy" decoding="async" src="images/hand-strip.jpg" alt="gallery" width="272" height="320">
                             </picture>
-                        <div class="cs-info">
-                            <span class="cs-name">Roser Fetherer</span>
-                            <span class="cs-job">Project Manager</span>
-                        </div>
-                    </li>
-                    <li class="cs-item">
-                        <!--Background Image-->
-                        <picture class="cs-background">
-                            <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png">
-                            <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png" alt="cleaner" width="305" height="335">
+                        </a>
+                        <!--Picture 3-->
+                        <a href="images/dental-after.jpg" data-fancybox="gallery" data-caption="Say cheese!">
+                            <picture class="cs-image">
+                                <source media="(max-width: 600px)" srcset="images/dental-after.jpg" type="image/jpg">
+                                <source media="(min-width: 601px)" srcset="images/dental-after.jpg" type="image/jpg">
+                                <img loading="lazy" decoding="async" src="images/dental-after.jpg" alt="gallery" width="272" height="320">
                             </picture>
-                        <div class="cs-info">
-                            <span class="cs-name">Needse Zedd</span>
-                            <span class="cs-job">Cleaner</span>
-                        </div>
-                    </li>
-                    <li class="cs-item">
-                        <!--Background Image-->
-                        <picture class="cs-background">
-                            <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png">
-                            <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png" alt="cleaner" width="305" height="335">
+                        </a>
+                        <!--Picture 4-->
+                        <a href="images/doggrooming.jpg" data-fancybox="gallery" data-caption="Just an elderly wanting to be stylish">
+                            <picture class="cs-image">
+                                <source media="(max-width: 600px)" srcset="images/doggrooming.jpg" type="image/jpg">
+                                <source media="(min-width: 601px)" srcset="images/doggrooming.jpg" type="image/jpg">
+                                <img loading="lazy" decoding="async" src="images/doggrooming.jpg" alt="gallery" width="272" height="320">
                             </picture>
-                        <div class="cs-info">
-                            <span class="cs-name">Kaisa Alita</span>
-                            <span class="cs-job">CEO</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        
-
-        <!-- ============================================ -->
-        <!--                   Contact                    -->
-        <!-- ============================================ -->
-
-        <section id="contact-1388">
-            <div class="cs-container">
-                <div class="cs-content">
-                    <span class="cs-topper">Contact Us</span>
-                    <h2 class="cs-title">Get in Touch</h2>
-                    <p class="cs-text">
-                        We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
+                        </a>
+                        <!--Picture 5-->
+                        <a href="images/catgrooming.jpg" data-fancybox="gallery" data-caption="Alex waiting patiently for his groom!">
+                            <picture class="cs-image">
+                                <source media="(max-width: 600px)" srcset="images/catgrooming.jpg" type="image/jpg">
+                                <source media="(min-width: 601px)" srcset="images/catgrooming.jpg" type="image/jpg">
+                                <img loading="lazy" decoding="async" src="images/catgrooming.jpg" alt="gallery" width="272" height="320">
+                            </picture>
+                        </a>
+                    </div>
+                    <p class="gallery-caption">
+                        Check out more photos of our happy clients at client gallery!
                     </p>
-                    <ul class="cs-ul">
-                        <li class="cs-li">
-                            <picture class="cs-icon-wrapper">
-                                <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
-                            </picture>
-                            <div class="cs-flex-group">
-                                <span class="cs-header">Phone</span>
-                                <a href="tel:888-4565-789
-                                " class="cs-link">03 9077 7633
-                                </a>
+                    <a href="https://youtu.be/BjDebmqFRuc?si=mhmNoZh4tmLkHWPP" class="cs-button-6" aria-label="read more about us">
+                        View Gallery
+                        <!--SVG Arrow-->
+                        <svg class="cs-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.92 11.62C17.8724 11.4973 17.801 11.3851 17.71 11.29L12.71 6.29C12.6168 6.19676 12.5061 6.1228 12.3842 6.07234C12.2624 6.02188 12.1319 5.99591 12 5.99591C11.7337 5.99591 11.4783 6.1017 11.29 6.29C11.1968 6.38324 11.1228 6.49393 11.0723 6.61575C11.0219 6.73758 10.9959 6.86814 10.9959 7C10.9959 7.2663 11.1017 7.5217 11.29 7.71L14.59 11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H14.59L11.29 16.29C11.1963 16.383 11.1219 16.4936 11.0711 16.6154C11.0203 16.7373 10.9942 16.868 10.9942 17C10.9942 17.132 11.0203 17.2627 11.0711 17.3846C11.1219 17.5064 11.1963 17.617 11.29 17.71C11.383 17.8037 11.4936 17.8781 11.6154 17.9289C11.7373 17.9797 11.868 18.0058 12 18.0058C12.132 18.0058 12.2627 17.9797 12.3846 17.9289C12.5064 17.8781 12.617 17.8037 12.71 17.71L17.71 12.71C17.801 12.6149 17.8724 12.5028 17.92 12.38C18.02 12.1365 18.02 11.8635 17.92 11.62Z" fill="#1A1A1A"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- ============================================ -->
+            <!--                Meet The Team                 -->
+            <!-- ============================================ -->
+            <section id="meet-us-347">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <div class="cs-flex-group">
+                            <span class="cs-topper">Meet</span>
+                            <h2 class="cs-title">The Groomers</h2>
+                        </div>
+                        <a href="" class="cs-button-solid">View All Members</a>
+                    </div>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <!--Background Image-->
+                            <picture class="cs-background">
+                                <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner1.png">
+                                <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner1.png">
+                                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner1.png" alt="cleaner" width="305" height="335">
+                                </picture>
+                            <div class="cs-info">
+                                <span class="cs-name">Darren Jason Watkins Jr.</span>
+                                <span class="cs-job">Chief Groomer</span>
                             </div>
                         </li>
-                        <li class="cs-li">
-                            <picture class="cs-icon-wrapper">
-                                <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
-                            </picture>
-                            <div class="cs-flex-group">
-                                <span class="cs-header">Email</span>
-                                <a href="mailto:Email@stitch.com" class="cs-link">woofwoof@bajasgroomer.com</a>
+                        <li class="cs-item">
+                            <!--Background Image-->
+                            <picture class="cs-background">
+                                <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png">
+                                <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png">
+                                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner2.png" alt="cleaner" width="305" height="335">
+                                </picture>
+                            <div class="cs-info">
+                                <span class="cs-name">Roser Fetherer</span>
+                                <span class="cs-job">Manager</span>
                             </div>
                         </li>
-                        <li class="cs-li">
-                            <picture class="cs-icon-wrapper">
-                                <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
-                            </picture>
-                            <div class="cs-flex-group">
-                                <span class="cs-header">Address</span>
-                                <a href="" class="cs-link">Unit 5/1 Bayliss Street, Preston, VIC 3072</a>
+                        <li class="cs-item">
+                            <!--Background Image-->
+                            <picture class="cs-background">
+                                <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png">
+                                <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png">
+                                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner3.png" alt="cleaner" width="305" height="335">
+                                </picture>
+                            <div class="cs-info">
+                                <span class="cs-name">Needse Zedd</span>
+                                <span class="cs-job">Cleaner</span>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <!--Background Image-->
+                            <picture class="cs-background">
+                                <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png">
+                                <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png">
+                                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/cleaner4.png" alt="cleaner" width="305" height="335">
+                                </picture>
+                            <div class="cs-info">
+                                <span class="cs-name">Kaisa Alita</span>
+                                <span class="cs-job">CEO</span>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <!--Form-->
-                <form class="cs-form" id="cs-form-1388" name="Contact Form" method="post">
-                    <h3 class="cs-h3">Make Appointment</h3>
-                    <label class="cs-label">
-                        Name
-                        <input class="cs-input" required type="text" id="name-1388" name="name" placeholder="Name">
-                    </label>
-                    <label class="cs-label cs-email">
-                        Email
-                        <input class="cs-input" required type="email" id="email-1388" name="email" placeholder="Email">
-                    </label>
-                    <label class="cs-label cs-phone">
-                        Phone
-                        <input class="cs-input" required type="number" id="phone-1388" name="phone" placeholder="Phone">
-                    </label>
-                    <label class="cs-label">
-                        Message
-                        <textarea class="cs-input cs-textarea" required name="Message" id="message-1388" placeholder="Write message..."></textarea>
-                    </label>
-                    <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
-                </form>
-            </div>
-        </section>
+            </section>
+            
+            <!-- ============================================ -->
+            <!--                   Contact                    -->
+            <!-- ============================================ -->
+            <section id="contact-1388">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <span class="cs-topper">Contact Us</span>
+                        <h2 class="cs-title">Get in Touch</h2>
+                        <p class="cs-text">
+                            We are a team of passionate individuals dedicated to giving your pet a good time!
+                        </p>
+                        <ul class="cs-ul">
+                            <li class="cs-li">
+                                <picture class="cs-icon-wrapper">
+                                    <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                                </picture>
+                                <div class="cs-flex-group">
+                                    <span class="cs-header">Phone + Mobile</span>
+                                    <a href="tel:03-9077-7633" 
+                                    class="cs-link">03 9077 7633
+                                    </a>
+                                    <a href="tel:04-3939-4575" 
+                                    class="cs-link">04 3939 4575
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="cs-li">
+                                <picture class="cs-icon-wrapper">
+                                    <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                                </picture>
+                                <div class="cs-flex-group">
+                                    <span class="cs-header">Email</span>
+                                    <a href="mailto:Email@stitch.com" class="cs-link">woofwoof@bajasgroomer.com</a>
+                                </div>
+                            </li>
+                            <li class="cs-li">
+                                <picture class="cs-icon-wrapper">
+                                    <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                                </picture>
+                                <div class="cs-flex-group">
+                                    <span class="cs-header">Address</span>
+                                    <a href="" class="cs-link">Unit 5/1 Bayliss Street, Preston, VIC 3072</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Form-->
+                    <form class="cs-form" id="cs-form-1388" name="Contact Form" method="post">
+                        <h3 class="cs-h3">Make Appointment</h3>
+                        <label class="cs-label">
+                            Name
+                            <input class="cs-input" required type="text" id="name-1388" name="name" placeholder="Name">
+                        </label>
+                        <label class="cs-label cs-email">
+                            Email
+                            <input class="cs-input" required type="email" id="email-1388" name="email" placeholder="Email">
+                        </label>
+                        <label class="cs-label cs-phone">
+                            Phone
+                            <input class="cs-input" required type="number" id="phone-1388" name="phone" placeholder="Phone">
+                        </label>
+                        <label class="cs-label">
+                            Message
+                            <textarea class="cs-input cs-textarea" required name="Message" id="message-1388" placeholder="Write message..."></textarea>
+                        </label>
+                        <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
                                 
 
         <script src="js/script.js"></script>
@@ -460,9 +470,28 @@
                     <a href="" class="cs-link">Contact</a>
                 </li>
             </ul>
+            <!-- Logo Group -->
+            <div class="cs-social">
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <a class="cs-social-link" aria-label="visit google profile" href="">
+                            <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                            <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="11" height="11">
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                            <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <span class="cs-copyright">© 2024 Copyright</span>
         </div>
-    </footer>
-                                
+    </footer>  
                                 
 </html>
